@@ -11,7 +11,7 @@ function Component() {
                 const response = await fetch('http://localhost:3000/auteur/all');
                 const responses = await fetch('http://localhost:3000/livre/all');
                 const responsee = await fetch('http://localhost:3000/editeur/all');
-                const responsees = await fetch('http://localhost:3000/livre/all');
+                const responsees = await fetch('http://localhost:3000/user/all');
                 const data = await response.json();
                 const date = await responses.json();
                 const dats = await responsee.json();
